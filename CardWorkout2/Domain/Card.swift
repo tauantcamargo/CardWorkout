@@ -8,7 +8,7 @@
 import UIKit
 
 struct Card {
-    static let allValues = [
+    static var allValues = [
         UIImage(named: "2H")!,
         UIImage(named: "3H")!,
         UIImage(named: "4H")!,
@@ -17,7 +17,7 @@ struct Card {
         UIImage(named: "7H")!,
         UIImage(named: "8H")!,
         UIImage(named: "9H")!,
-        UIImage(named: "10")!,
+        UIImage(named: "10H")!,
         UIImage(named: "AH")!,
         UIImage(named: "JH")!,
         UIImage(named: "KH")!,

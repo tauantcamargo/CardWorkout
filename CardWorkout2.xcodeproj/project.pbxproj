@@ -12,6 +12,8 @@
 		CAA4834529CE7D630048440E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA4834329CE7D630048440E /* Main.storyboard */; };
 		CAA4834729CE7D640048440E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA4834629CE7D640048440E /* Assets.xcassets */; };
 		CAA4834A29CE7D640048440E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA4834829CE7D640048440E /* LaunchScreen.storyboard */; };
+		CAA4835429CE7FD70048440E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA4835329CE7FD70048440E /* Card.swift */; };
+		CAA4835629CE80E10048440E /* CardWorkoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA4835529CE80E10048440E /* CardWorkoutVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CAA4834629CE7D640048440E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAA4834929CE7D640048440E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAA4834B29CE7D640048440E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA4835329CE7FD70048440E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CAA4835529CE80E10048440E /* CardWorkoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkoutVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		CAA4833C29CE7D630048440E /* CardWorkout2 */ = {
 			isa = PBXGroup;
 			children = (
+				CAA4835229CE7EBC0048440E /* Domain */,
+				CAA4835129CE7EB20048440E /* ViewController */,
 				CAA4833D29CE7D630048440E /* AppDelegate.swift */,
 				CAA4833F29CE7D630048440E /* SceneDelegate.swift */,
 				CAA4834329CE7D630048440E /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				CAA4834B29CE7D640048440E /* Info.plist */,
 			);
 			path = CardWorkout2;
+			sourceTree = "<group>";
+		};
+		CAA4835129CE7EB20048440E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4835529CE80E10048440E /* CardWorkoutVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CAA4835229CE7EBC0048440E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4835329CE7FD70048440E /* Card.swift */,
+			);
+			path = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA4835629CE80E10048440E /* CardWorkoutVC.swift in Sources */,
 				CAA4833E29CE7D630048440E /* AppDelegate.swift in Sources */,
+				CAA4835429CE7FD70048440E /* Card.swift in Sources */,
 				CAA4834029CE7D630048440E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
